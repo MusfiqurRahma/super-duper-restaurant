@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
       <Header></Header>
         <Switch>
-          <Route path='/header/restaurant'>
+          <Route exact path='/header/restaurant'>
           <Header></Header>
           </Route>
           <Route exact path='/restaurant/:restaurantId'>
